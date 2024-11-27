@@ -1,0 +1,100 @@
+.intro{
+    height: calc(90vw-5rem);
+    width: 95vw;
+    margin: 0 auto;
+    max-width: 75rem;
+    /* overflow: hidden; */
+    position:relative;
+}
+
+.myImg{
+    position: absolute;
+    top: -2rem;
+    z-index: -1;
+    right: 0;
+    object-fit: cover;
+    height: 85vh;
+}
+.introContent{
+    height: 70vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.introName{
+    color: yellow
+}
+.introPara{
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.icon{
+    height: 1.50rem;
+    object-fit: cover;
+    padding: 0 0.25rem;
+    
+   
+  
+}
+.btn{
+    margin: 1rem 0;
+    padding: 0.75rem 1.50rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    display: flex;
+
+}
+
+#app{
+    text-align:center;
+    font-size:50px;
+    /* background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    ); */
+    background-color: white;
+    background-clip:border-box;
+     text-fill-color: transparent;
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+@media screen and (max-width:540px) {
+    .myImg{
+        right: -20vw;
+    }
+    .introContent{
+        font-size: 15vw;
+    }
+    
+}
+
+@media screen and (max-width:460px) {
+    .myImg{
+        right: -40vw;
+    }
+    
+    
+}

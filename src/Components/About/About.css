@@ -1,0 +1,34 @@
+.about{
+    margin: 1rem 1rem;
+   
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.25rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.headpara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+     
+}
+
+.aboutintro{
+    margin: 3rem 1rem;
+    padding: 1rem 1rem;
+    width: 40vw;
+}
+.aboutpara{
+    padding: 1rem 0;
+}
+.aboutskill{
+    margin: 3rem 1rem;
+    padding: 1rem 1rem;
+    
+}

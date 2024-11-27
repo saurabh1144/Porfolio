@@ -1,0 +1,46 @@
+.navbar{
+    height: 5rem;
+    width: 95vw;
+    margin: 0 ; 
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    position: static;
+    top: 0;
+    z-index: 3;
+}
+.menuList{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.menuList:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 5px solid yellow;
+   
+}
+
+
+
+.port{
+    font-size: 2rem;
+    color: yellow;
+}
+.menuImg{
+    object-fit: cover;
+    height: 1rem;
+    margin: 1rem;
+
+}
+.menuBtn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    border-radius: 2rem;
+    /* height: 2rem; */
+}
+
