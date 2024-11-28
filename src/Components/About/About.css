@@ -1,5 +1,7 @@
 .about{
     margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
    
 }
 .heading{
@@ -18,17 +20,53 @@
     font-weight: 200;
      
 }
-
 .aboutintro{
-    margin: 3rem 1rem;
-    padding: 1rem 1rem;
-    width: 40vw;
+    /* border: 1px solid red; */
+    margin: 3rem 3rem;
+    padding: 0 3rem;
 }
-.aboutpara{
-    padding: 1rem 0;
-}
+
+
 .aboutskill{
     margin: 3rem 1rem;
-    padding: 1rem 1rem;
+    padding: 0 1rem;
+    /* border: 1px solid red; */
     
+}
+.image{
+    height: 20rem;
+    width: 18rem;
+    /* object-fit: contain; */
+    /* border-radius: 50px 50px; */
+    border-radius: 20%; 
+    border: 0px solid transparent;
+    /* animation:pulseRotate 5s infinite linear;  */
+   
+}
+.aboutpara{
+    font-weight: 200;
+}
+/* @keyframes pulseRotate {
+    0% {
+        box-shadow: 0 0 10px rgba(211, 218, 19, 0.8), 0 0 20px #a1d30d99, 0 0 30px rgba(228, 206, 7, 0.721);
+    }
+    50% {
+        box-shadow: 0 0 15px rgb(205, 218, 28), 0 0 30px rgba(131, 197, 25, 0.9), 0 0 45px rgba(111, 199, 11, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(155, 241, 17, 0.8), 0 0 20px rgba(170, 206, 12, 0.6), 0 0 30px rgba(185, 164, 6, 0.5);
+    }
+} */
+.education{
+    list-style: none;
+}
+.collegepg{
+    font-size: small;
+    font-weight: 200;
+    color: rgb(173, 155, 155);
+    margin: 0 1.25rem;
+}
+.listitem{
+    font-size: large;
+    font-weight: 500;
 }

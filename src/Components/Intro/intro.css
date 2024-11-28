@@ -9,15 +9,16 @@
 
 .myImg{
     position: absolute;
-    top: -2rem;
+    top: 3rem;
     z-index: -1;
     right: 0;
     object-fit: cover;
-    height: 85vh;
+    height: 60vh;
 }
 .introContent{
-    height: 70vh;
+    height: 90vh;
     width: 100vw;
+    margin: 2rem 2rem;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
@@ -75,6 +76,12 @@
     animation: textclip 2s linear infinite;
   }
   
+
+  
+
+
+
+
   @keyframes textclip {
     to {
       background-position: 200% center;
@@ -86,7 +93,10 @@
         right: -20vw;
     }
     .introContent{
-        font-size: 15vw;
+        font-size: 10vw;
+    }
+    #app{
+        background-color: #6C63FF;
     }
     
 }
