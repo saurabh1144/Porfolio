@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css';
 import contact from '../../assets/contact.png'
 import { Link } from 'react-scroll';
+import { motion } from 'motion/react';
 
 const Navbar = () => {
   return (
@@ -15,8 +16,12 @@ const Navbar = () => {
         <Link className='menuList'>Projects</Link>
 
         </div>
-        <button className='menuBtn'>
-        <img src={contact} alt='' className='menuImg'/>Contact Me</button>
+        <motion.button
+         whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.95 }}
+  onHoverStart={() => console.log('hover started!')}
+         className='menuBtn'>
+        <img src={contact} alt='' className='menuImg'/>Contact Me</motion.button>
 
       </nav>
     </div>
