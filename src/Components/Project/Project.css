@@ -1,0 +1,97 @@
+.project{
+    height: 100vh;
+    width: 100vw;
+    margin: 1rem 0;
+}
+
+.projecttext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.card{
+    width: 20rem;
+    height: 25rem;
+    margin: 2rem 3rem;
+    /* padding: 1rem 2rem; */
+    background-color: rgba(128, 128, 128, 0.466);
+}
+.card-img-top {
+    height: 12rem; /* Initial height */
+    width: auto; /* Maintain natural width */
+    transition: transform 2s ease; /* Smooth scaling effect */
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.3); /* Scales the image (2.5x larger) */
+  }
+  .card-title {
+    display: flex;
+    margin: 0.25rem;
+    padding: 0 0.75rem;
+    color: white;
+    background: linear-gradient(to right, white 0%, yellow 50%, white 100%);
+    background-size: 200%; /* Makes the gradient larger for the shine effect */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 200% 0; /* Start with gradient off-screen */
+    }
+    50% {
+      background-position: 100% 0; /* Midway through the animation */
+    }
+    100% {
+      background-position: 0 0; /* Gradient fully cycles back */
+    }
+  }
+  
+  
+  .card-text{
+    font-size: small;
+    font-weight: 200;
+    color: white;
+  }
+  .icon{
+    display: flex;
+    gap: 1rem;
+    /* padding: 1rem 0; */
+    
+  }
+  .fa{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.25rem;
+    color: white;
+    margin: 0 1rem 1rem 0rem;
+    cursor: pointer;
+    
+  }
+
+  .more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    
+  }
+  .view{
+    border: 0.5px solid white;
+    font-size: small;
+    font-weight: 200;
+    transition: transform 1s ease-in;
+
+  }
+
+  .view:hover{
+    border: 0.5px solid yellow;
+    transform: scale(1.2);
+  }
+  

@@ -38,23 +38,30 @@
     font-weight: 200;
     letter-spacing: 2px;
 }
-.icon{
+/* .icon{
     height: 1.50rem;
     object-fit: cover;
     padding: 0 0.25rem;
-    
-   
-  
-}
-.btn{
+} */
+/* .butn{
     margin: 1rem 0;
-    padding: 0.75rem 1.50rem;
+    padding: 0.5rem 1rem;
     border: none;
     border-radius: 2rem;
     cursor: pointer;
     display: flex;
+    
+} */
+ .social{
+    display: flex;
+    gap: 1rem;
+    
+ }
+ .link{
+    text-decoration: none;
+    color:inherit;
+ }
 
-}
 
 #app{
     text-align:center;
@@ -88,7 +95,7 @@
     }
   }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:720px) {
     .myImg{
         /* background-image: none; */
         display: none;
@@ -96,16 +103,17 @@
     .introContent{
         font-size: 10vw;
     }
-    #app{
-        background-color: #6C63FF;
-    }
+    
     
 }
 
 @media screen and (max-width:460px) {
     .myImg{
-       /* background-image: none; */
+    
        display: none;
+    }
+    .introContent{
+        font-size: 5vw;
     }
     
     

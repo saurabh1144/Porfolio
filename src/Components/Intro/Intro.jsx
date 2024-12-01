@@ -1,8 +1,12 @@
 import React, { useEffect } from "react";
 import "./intro.css";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { FaGithub,FaLinkedin } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { Link } from "react-router-dom";
 
-import down from "../../assets/downlaod.png";
+
+// import down from "../../assets/downlaod.png";
 import banner from "../../assets/undraw.svg"
 
 
@@ -40,13 +44,19 @@ const Intro = () => {
             I am a skilled Web Developer with experience in creating <br />
             visually appealing and user friendly websites.
           </p>
-          <Link>
-            {" "}
-            <button className="btn">
+          <div className="social">
+         <a className="link" href='https://github.com/saurabh1144' target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip" data-bs-placement="top" title="Github"><span><FaGithub/></span></a> 
+         <a className="link" href="https://linkedin.com/in/saurabh-chouragade-8658631b1 " target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn"><span><FaLinkedin/></span></a>
+         <a className="link" href="mailto:saurabhchouragade72@gmail.com" target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip" data-bs-placement="top" title="Gmail"><span><SiGmail /></span></a>
+            
+
+          </div>
+          
+            {/* <button className="butn">
               <img src={down} alt="icon" className="icon" />
               Resume
-            </button>
-          </Link>
+            </button> */}
+         
         </span>
       </div>
       <img src={banner} alt="img" className="myImg" />

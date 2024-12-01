@@ -34,7 +34,7 @@ const About = () => {
               JavaScript, Node.js, React.js, and Next.js, encompassing both
               frontend and backend development.
             </p>
-            <h4 data-aos="fade-left" class="badge bg-warning text-dark educationhead">Education</h4>
+            <h4 data-aos="fade-left" className="badge bg-warning text-dark educationhead">Education</h4>
             <ul data-aos="fade-left" className="education">
               <li className="listitem">
                 <FaGraduationCap /> Masters Of Computer Applications(MCA)
