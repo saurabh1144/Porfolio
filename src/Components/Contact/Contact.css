@@ -1,0 +1,41 @@
+#contactpage{
+    height: auto;
+
+}
+
+.contacttitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    /* max-width: 60rem; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 1rem 2rem;
+}
+.name, .email, .message{
+    margin: 0.5rem 1rem;
+    width: 100%;
+    max-width: 40rem;
+    padding: 0.25rem 0.5rem;
+    background: rgb(40, 40, 40);
+    border: none;
+    color: white;
+    font-size: small;
+
+}
+.submitbutton{
+    margin: 1rem 0;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 400;
+}
