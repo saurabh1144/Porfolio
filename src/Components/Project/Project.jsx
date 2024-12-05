@@ -47,7 +47,7 @@ const Project = () => {
             </div>
             <div className="card-footer icon">
                 <a className="fa" href="https://github.com/saurabh1144/WeatherApp.git" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code in Github"><span><FaGithub/></span></a>
-                <a className="fa" href=""><span><FaExternalLinkAlt/></span></a>
+                <a className="fa" href="https://weeatherappp.netlify.app/"><span><FaExternalLinkAlt/></span></a>
 
               </div>
             

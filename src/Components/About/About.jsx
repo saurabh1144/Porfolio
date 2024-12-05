@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import "./About.css";
 import { FaGraduationCap } from "react-icons/fa6";
 import myimg from "../../assets/abc.png";
-import { motion} from "motion/react";
+import { MdOutlineFileDownload } from "react-icons/md";
+// import { motion} from "motion/react";
 import Aos from "aos";
 
 
@@ -51,6 +52,7 @@ const About = () => {
               </label>
             </ul>
           </div>
+          <a className="resumeBtn" href="../../assets/resume.pdf" download='Saurabh_Resume.pdf'><MdOutlineFileDownload className="down"/>Resume</a>
         </div>
       </div>
     </section>

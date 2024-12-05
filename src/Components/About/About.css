@@ -1,8 +1,11 @@
 .about{
-    margin: 0 1rem;
+    margin: 5rem 1rem;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    max-height: 100%;
+    min-height: 100%;
+
+    
    
 }
 .heading{
@@ -74,6 +77,30 @@
 .educationhead{
     font-size: medium;
     /* color: white; */
+}
+
+.resumeBtn{
+    margin:0 2rem;
+    border: 1px solid white;
+    padding: 0.50rem 1rem;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: medium;
+    background: none;
+    color: white;
+    transition: transform 0.5s ease-out;
+    text-decoration: none;
+    cursor: pointer;
+    
+
+}
+.down{
+    margin-right: 0.25rem;
+    font-size: 1.25rem;
+}
+
+.resumeBtn:hover{
+    transform: scale(1.1);
 }
 
 @media screen and (max-width:460px){

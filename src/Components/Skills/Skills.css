@@ -1,7 +1,8 @@
 .skill{
-    height: auto;
+   min-height: 100vh;
     width: 100vw;
     /* border: 1px solid red; */
+    /* margin: 3rem 0; */
 }
 .myskill{
     display: flex;
@@ -12,16 +13,53 @@
     font-weight: 400;
     
 }
-
 .box{
-    height: 7rem;
-    width: 10rem;
-    /* border: 1px solid red; */
-    margin: 2rem 5rem;
+
+    margin-top: 5rem;
+}
+.skillset{
+    height: auto;
+    background: rgb(50, 50, 50);
+    padding: 0.75rem 1rem;
+    margin: 1rem 0.50rem;
+    width: auto;
+    border-radius: 0.20rem;
+}
+.skillsets{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* margin: 3rem 0; */
+   
+
+}
+.reacticon{
+    font-size: 1.50rem;
+    margin-right: 0.50rem;
+    /* color: lightblue; */
 }
 
-.icon{
-    height: 4rem;
-    width: auto;
-    margin:0 2rem;
+
+@media screen and (max-width:420px) {
+    .skillsets{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .skillset{
+        height: auto;
+        font-size: 0.5rem;
+        padding: 0.25rem 0.50rem;
+
+    }
+    .reacticon{
+        font-size: 1rem;
+        margin-right: 0.25rem;
+    }
+    
 }

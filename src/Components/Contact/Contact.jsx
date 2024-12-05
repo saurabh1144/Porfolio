@@ -14,7 +14,7 @@ const Contact = () => {
 
 
     </form>
-      
+      <hr/>
     </section>
   )
 }

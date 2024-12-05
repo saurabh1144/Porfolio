@@ -21,11 +21,13 @@
 .menuList:hover{
     color: yellow;
     padding-bottom: 0.5rem;
-    border-bottom: 5px solid yellow;
+    border-bottom: 3px solid yellow;
    
 }
 .active{
     color: yellow;
+    border-bottom:3px solid yellow ;
+
 }
 
 
@@ -49,5 +51,46 @@
     padding: 0 1rem;
     border-radius: 2rem;
     /* height: 2rem; */
+}
+
+.mobMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.50rem 1rem;
+    background: rgb(40, 40, 40);
+    height: fit-content;
+    min-width: 15rem;
+    border-radius: 1rem;
+}
+.mobList{
+    color: white;
+    text-decoration: none;
+    padding: 0.25rem 2rem;
+    margin: 0.25rem;
+    border-radius: 0.25rem;
+    background: rgb(30, 30, 30);
+}
+.menuimage{
+    display: none;
+    height: 1.25rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width:820px) {
+    .menuimage{
+        display: flex;
+    }
+    .menu{
+        display: none;
+    
+    }
+    .menuBtn{
+        display: none;
+    }
+
+    
 }
 
