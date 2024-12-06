@@ -38,7 +38,8 @@
     
 }
 .image{
-    height: 20rem;
+    object-fit: cover;
+    height: 22rem;
     width: 18rem;
     /* object-fit: contain; */
     /* border-radius: 50px 50px; */
