@@ -57,25 +57,22 @@ const Experience = () => {
               <label className="date">Oct 2023 - April 2024</label>
             </div>
             <div className="company px-4">TechQuadra Solution, Nagpur</div>
-            <div className="proj px-4">Project : HRMS</div>
+            <div className="proj px-4"> Project: Student Management Website for School</div>
             <div className="desp mx-5 my-2">
               <ul>
                 <li>
-                  Developed an intuitive and responsive user interface using
-                  HTML, CSS, and React.js, ensuring a seamless user experience
-                  across devices.
+                Designed and implemented a user-friendly UI for the Attendance module in a School Management System using
+                React.js, allowing teachers to efficiently mark student attendance.
                 </li>
                 <li>
                   {" "}
-                  Implemented dynamic search functionality, allowing users to
-                  input custom queries to efficiently find employee records and
-                  relevant HR information.
+                  Developed intuitive menus for exam and assessment creation, utilizing React.js and JavaScript to enhance the
+ Exam module’s functionality.
                 </li>
                 <li>
                   {" "}
-                  Integrated APIs (or backend services) using JavaScript to
-                  retrieve and manage current employee data, including profiles
-                  and associated documentation.
+                  Integrated exam-related data seamlessly into the system’s API, optimizing data management and retrieval
+ processes.
                 </li>
               </ul>
             </div>
@@ -83,7 +80,7 @@ const Experience = () => {
               <label className="px-4">
                 Tools Used:{" "}
                 <span className="tool">
-                  React Js, Next Js, Redux, Axios, Git
+                  React Js, Redux, Tailwind, Axios, PostMan, Git
                 </span>{" "}
               </label>
             </div>
