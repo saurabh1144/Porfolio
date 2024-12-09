@@ -26,7 +26,7 @@ const Project = () => {
             </div>
             <div className="card-footer icon">
                 <a className="fa" href="https://github.com/saurabh1144/Netflix-page" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code in Github"><span><FaGithub/></span></a>
-                <a className="fa" href=""><span><FaExternalLinkAlt/></span></a>
+                <a className="fa" href="https://stalwart-ganache-b48dfe.netlify.app/"><span><FaExternalLinkAlt/></span></a>
 
               </div>
             
@@ -69,8 +69,8 @@ const Project = () => {
              
             </div>
             <div className="card-footer icon">
-                <a className="fa" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code in Github"><span><FaGithub/></span></a>
-                <a className="fa"><span><FaExternalLinkAlt/></span></a>
+                <a className="fa" href="https://github.com/saurabh1144/TwitVerse.git" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code in Github"><span><FaGithub/></span></a>
+                <a className="fa" href="https://blooogging-170b04.netlify.app/"><span><FaExternalLinkAlt/></span></a>
 
               </div>
             
