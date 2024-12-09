@@ -3,7 +3,8 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <section className="exp">
+    <section className="exp" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
       <div className="expTitle">
         <label className="line">Experience</label>
       </div>

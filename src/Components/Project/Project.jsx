@@ -8,7 +8,8 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Project = () => {
   return (
-    <section className="project">
+    <section className="project"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
       <label className="projecttext">Projects</label>
       <div className="row">
         <div className="col-lg-4 col-md-6 col-sm-12">

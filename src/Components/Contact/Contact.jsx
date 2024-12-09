@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='contactpage'>
+    <section id='contactpage' data-aos="zoom-in-right">
     <h4 className='contacttitle'>Contact Me</h4>
     <form className='contactform' ref={form} onSubmit={sendEmail}>
 
