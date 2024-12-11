@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./About.css";
 import { FaGraduationCap } from "react-icons/fa6";
-import myimg from "../../assets/abc.png";
+import myimg from "../../assets/myimg1.png";
 import { MdOutlineFileDownload } from "react-icons/md";
 // import { motion} from "motion/react";
 import Aos from "aos";

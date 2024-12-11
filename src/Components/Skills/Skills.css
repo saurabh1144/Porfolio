@@ -1,6 +1,6 @@
 .skill{
    min-height: auto;
-    width: 100vw;
+    min-width: 90%;
     /* border: 1px solid red; */
     /* margin: 3rem 0; */
 }
@@ -16,6 +16,7 @@
 .box{
 
     margin-top: 5rem;
+    /* width: 50%; */
 }
 .skillset{
     height: auto;
@@ -43,9 +44,12 @@
 
 
 @media screen and (max-width:420px) {
-    .skillsets{
-        display: flex;
-        flex-direction: column;
+    .skillset{
+        
+        
+    }
+    .reacticon{
+        
     }
     
 }
@@ -55,11 +59,14 @@
         height: auto;
         font-size: 0.5rem;
         padding: 0.25rem 0.50rem;
+        text-align: center;
+        box-sizing: border-box;
 
     }
     .reacticon{
         font-size: 1rem;
         margin-right: 0.25rem;
+        display: block;
     }
     
 }

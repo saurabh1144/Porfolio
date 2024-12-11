@@ -37,7 +37,7 @@ const Intro = () => {
         <span className="introText">
           {" "}
           I'm
-          <span className="introName"> Saurabh </span>
+          <span className="introName">Saurabh </span>
           <br />
           <span id="app">Frontend Developer</span>
           <p className="introPara">

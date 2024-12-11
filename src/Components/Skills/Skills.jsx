@@ -10,18 +10,6 @@ import { SiRedux,SiNetlify, SiPostman  } from "react-icons/si";
 import { FaNodeJs,FaAws  } from "react-icons/fa";
 import { TbBrandVscode } from "react-icons/tb";
 
-// import reacticon from "../../assets/Reactlogo.png";
-// import jsicon from "../../assets/javascript.png";
-// import python from "../../assets/python.png";
-// import next from "../../assets/nextjs.png";
-// import node from '../../assets/nodejs.png'
-// import html from '../../assets/html.png'
-// import redux from '../../assets/redux.png'
-// import vscode from '../../assets/vscode.png'
-// import tailwind from '../../assets/tailwind.png'
-// import css from '../../assets/css3.png'
-// import boot from '../../assets/bootstrap.png'
-// import netlify from '../../assets/netlify.png'
 import Aos from "aos";
 
 

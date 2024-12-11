@@ -11,7 +11,7 @@ const Project = () => {
     <section className="project"  data-aos="fade-up"
      data-aos-anchor-placement="top-bottom">
       <label className="projecttext">Projects</label>
-      <div className="row">
+      <div className="row row1">
         <div className="col-lg-4 col-md-6 col-sm-12">
           <div className="card ">
             <img src={net} className="card-img-top" alt="netflix" />

@@ -9,7 +9,7 @@ const Navbar = () => {
   const [show , setShow]=useState(false);
   return (
     <nav className="navbar">
-      <h6 className="port">Saurabh</h6>
+     <Link to="intro"> <h6 className="port">&lt;Saurabh/&gt;</h6></Link>
       <div className="menu">
         <Link
           activeClass="active"

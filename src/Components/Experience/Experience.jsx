@@ -8,7 +8,7 @@ const Experience = () => {
       <div className="expTitle">
         <label className="line">Experience</label>
       </div>
-      <div className="row">
+      <div className="row exprow">
         <div className="col-sm-12 col-lg-12 col-md-12 job">
           <div className="boxexp">
             <div className="insidebox">
@@ -50,7 +50,7 @@ const Experience = () => {
         </div>
       </div>
                     {/* Second Exp */}
-      <div className="row">
+      <div className="row exprow">
         <div className="col-sm-12 col-lg-12 col-md-12 job">
           <div className="boxexp">
             <div className="insidebox">
