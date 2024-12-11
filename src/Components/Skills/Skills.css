@@ -45,10 +45,17 @@
 
 @media screen and (max-width:420px) {
     .skillset{
+       margin-left: 1px;
+       
+        
         
         
     }
     .reacticon{
+        /* font-size: 2px; */
+        /* padding-left: 0.05rem; */
+        margin-left: 0.6rem;
+       
         
     }
     

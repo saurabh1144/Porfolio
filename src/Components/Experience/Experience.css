@@ -67,11 +67,22 @@ ul li{
     font-weight: 200;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:420px) {
 
     .boxexp{
-      /* margin: 1rem 2rem; */
+      margin:2rem 0.50rem;
+      padding: 0;
       width: auto;
     }
-    
+    .desg{
+        font-size: 1rem;
+    }
+    .date{
+        font-size: 0.80 rem;
+    }
+   .desp{
+    font-size: 0.75rem;
+    font-weight: 300 ;
+   }
+
   }

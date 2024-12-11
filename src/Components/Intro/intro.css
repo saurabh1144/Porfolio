@@ -1,11 +1,12 @@
 .intro{
-    height: calc(90vh-5rem);
-    /* height: 100vh; */
-    width: 95vw;
-    margin: 0 auto;
-    max-width: 75rem;
-    overflow: hidden;
+    /* height: calc(90vh-5rem); */
+    height: 100vh;
+    width: 100%;
+    /* margin: 0 auto; */
+    /* max-width: 75rem; */
+    overflow-x: hidden;
     position:relative;
+    
 }
 
 .myImg{
@@ -18,7 +19,7 @@
 }
 .introContent{
     height: 90vh;
-    width: 100vw;
+    width: 90vw;
     margin: 2rem 2rem;
     padding: 2rem;
     font-size: 3rem;
@@ -97,8 +98,8 @@
     }
     .introContent{
         /* font-size: 5vw; */
-        margin: 1rem 5rem 3rem 1rem;
-        padding: 0;
+        margin-left: 0;
+        padding: 1rem;
     }
     #app{
         font-size: 2rem;

@@ -20,14 +20,14 @@ const About = () => {
         Here you will find more information about me, what I do, and my current
         skills mostly in terms of programming and technology
       </span>
-      <div className="row">
-        <div className="col-lg-5 col-md-6 col-sm-12">
+      <div className="row imgcol">
+        <div className="col-lg-5 col-md-6 col-sm-12 ">
           <div className="aboutintro"
           >
             <img src={myimg} alt="myimg" className="image" />
           </div>
         </div>
-        <div className="col-lg-7 col-md-6 col-sm-12">
+        <div className="col-lg-7 col-md-6 col-sm-12 ">
           <div className="aboutskill">
             <p data-aos="fade-left" className="aboutpara">
               Greetings! I'm <b>Saurabh Chouragade</b>, a dedicated software
